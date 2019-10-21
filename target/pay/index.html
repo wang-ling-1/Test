@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Basic -->
+	<meta charset="UTF-8" />
+
+	<title>Dashboard | Fire - Admin Template</title>
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<!-- Import google fonts -->
+
+	<!-- Favicon and touch icons -->
+	<link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-touch-icon-152x152.png" />
+
+	<!-- start: CSS file-->
+
+	<!-- Vendor CSS-->
+	<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/vendor/skycons/css/skycons.css" rel="stylesheet" />
+	<link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="assets/vendor/css/pace.preloader.css" rel="stylesheet" />
+
+	<!-- Plugins CSS-->
+	<link href="assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet" />
+	<link href="assets/plugins/scrollbar/css/mCustomScrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/bootkit/css/bootkit.css" rel="stylesheet" />
+	<link href="assets/plugins/magnific-popup/css/magnific-popup.css" rel="stylesheet" />
+	<link href="assets/plugins/fullcalendar/css/fullcalendar.css" rel="stylesheet" />
+	<link href="assets/plugins/jqvmap/jqvmap.css" rel="stylesheet" />
+
+	<!-- Theme CSS -->
+	<link href="assets/css/jquery.mmenu.css" rel="stylesheet" />
+
+	<!-- Page CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" />
+	<link href="assets/css/add-ons.min.css" rel="stylesheet" />
+
+	<!-- end: CSS file-->
+	<!-- Head Libs -->
+	<script src="assets/plugins/modernizr/js/modernizr.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<img src="assets/img/logo_1.png" style="z-index: 999;position:fixed;left:6px;top:3px">
+<!-- Start: Header -->
+<!--111-->
+<div class="navbar" role="navigation">
+	<div class="container-fluid container-nav">
+		<ul class="nav navbar-nav navbar-actions navbar-left">
+			<li class="visible-md visible-lg"></li>
+			<li class="visible-xs visible-sm">
+				<a href="#" id="sidebar-menu"><i class="fa fa-navicon"></i></a>
+			</li>
+		</ul>
+		<!-- Navbar Left -->
+		<!-- Navbar Right -->
+		<div class="navbar-right">
+			<!-- Notifications -->
+			<!-- End Notifications -->
+			<!-- Userbox -->
+			<div class="userbox">
+				<div class="dropdown-menu">
+					<ul class="list-unstyled">
+						<li class="dropdown-menu-header bk-bg-white bk-margin-top-15">
+							<div class="progress progress-xs  progress-striped active">
+								<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+									60%
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="page-profile.html"><i class="fa fa-user"></i> Profile</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-wrench"></i> Settings</a>
+						</li>
+						<li>
+							<a href="page-invoice"><i class="fa fa-usd"></i> Payments</a>
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-file"></i> File</a>
+						</li>
+						<li>
+							<a href="page-login.html"><i class="fa fa-power-off"></i> Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- End Userbox -->
+		</div>
+		<!-- End Navbar Right -->
+	</div>
+</div>
+<!-- End: Header -->
+<div class="copyrights">Collect from
+	<a href="http://www.cssmoban.com/">免费网站模板</a>
+</div>
+<!-- Start: Content -->
+<div class="container-fluid content">
+	<div class="row">
+		<!-- Sidebar -->
+		<div class="sidebar" style="border: 0px">
+			<div class="sidebar-collapse">
+				<!-- Sidebar Header Logo-->
+				<div class="sidebar-header">
+				</div>
+				<div class="sidebar-header" style="height: 22px;background-color:#F1F2F4 !important">
+				</div>
+				<!-- Sidebar Menu-->
+				<div class="sidebar-menu" style="margin-top: -8px">
+					<nav id="menu" class="nav-main" role="navigation">
+						<ul class="nav nav-sidebar" style="margin-top: -16px">
+							<li class="active" style="height: 60px">
+								<a href="index.html" style="margin-top: 10px"> <em class="fa fa-laptop" aria-hidden="true"></em>
+									<span style="font-size:15px">&nbsp;支付管理</span> </a>
+							</li>
+							<li style="height: 60px">
+								<a href="mailbox-inbox.html" style="margin-top: 10px"> <em class="fa fa-envelope" aria-hidden="true"></em><span style="font-size:15px">&nbsp;&nbsp;&nbsp;Mail</span> </a>
+							</li>
+							<li class="nav-parent" style="height: 60px">
+								<a style="margin-top: 10px">
+									<i class="fa fa-copy" aria-hidden="true"></i><span style="font-size:15px">Pages</span>
+								</a>
+							</li>
+							<li class="nav-parent" style="height: 60px">
+								<a style="margin-top: 10px"> <em class="fa fa-tasks" aria-hidden="true"></em>
+									<span style="font-size:15px">&nbsp;&nbsp;UI Elements</span> </a>
+							</li>
+							<li class="nav-parent" style="height: 60px">
+								<a style="margin-top: 10px">
+									<i class="fa fa-list-alt" aria-hidden="true"></i><span style="font-size:15px">Forms</span>
+								</a>
+							</li>
+							<li class="nav-parent" style="height: 60px">
+								<a style="margin-top: 10px">
+									<i class="fa fa-table" aria-hidden="true"></i><span style="font-size:15px">Tables</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- End Sidebar Menu-->
+			</div>
+			<!-- Sidebar Footer-->
+			<div class="sidebar-footer">
+				<div class="small-chart-visits">
+					<script type="text/javascript">
+						var sparklineLineVisitsData = [15, 16, 17, 19, 15, 25, 23, 35, 29, 15, 30, 45];
+					</script>
+				</div>
+			</div>
+			<!-- End Sidebar Footer-->
+		</div>
+		<!-- End Sidebar -->
+		<!-- Main Page -->
+		<div class="main" style="background: #F1F2F4">
+			<!-- Page Header -->
+			<!-- End Page Header -->
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="width: 104%;margin-top: -64px;margin-bottom: 66px;margin-left: -30px">
+				<div class="panel bk-widget bk-border-off">
+					<div class="panel-heading bk-bg-white" style="background-color:#cfebd7 !important;border-bottom: 0px solid #ddd">
+						<h6 style="color: black">
+							<i class="fa fa-table red"></i><span class="break"  style="margin-left: -10px;font-size: 15px">添加结果</span>
+						</h6>
+					</div>
+					<div class="panel-body" style="border: 0px;font-size: 15px;">
+						<div class="table-responsive" style="margin-top:5px">
+							<table class="table table-bordered" style="background-color:#f9f9f9;border-collapse:separate;border-radius: 10px">
+								<input type="hidden" id="gotoPageHidden" value="1" />
+								<tbody style="text-align:center">
+								<tr style="height: 50px">
+									<td style="width: 13%;border-top-left-radius: 8px;"><span style="margin-left: -35px">订单号：</span></td>
+									<td><input id="ordernumber" style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+									<td style="width: 13%"><span>平台交易号：</span></td>
+									<td><input id="orderalipaynumber" style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+									<td style="width: 13%">下单时间：</td>
+									<td style="border-top-right-radius: 8px;"><input id="ordertime" onclick="WdatePicker({firstDayOfWeek:1})" style="height: 35px;width: 100%;border: solid 1px #CBCBCB"/></td>
+								</tr>
+								<tr style="height: 50px">
+									<td style="width: 13%;border-bottom-left-radius: 8px;">买家用户名：</td>
+									<td><input id="orderbuyername" style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+									<td style="width: 13%">卖家用户名：</td>
+									<td><input id="ordersellername" style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+									<td style="width: 13%">商品名称：</td>
+									<td style="border-bottom-right-radius: 8px;">
+										<input id="ordercommodity" style="height: 35px;width: 100%;border: solid 1px #CBCBCB"/>
+									</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+						<div style="margin-top: -6px;margin-bottom: -1px" align="center">
+							<button id="orderQueryButton" class="label label-warning" style="height:31px;width:78px;font-size: 15px;background-color: #0FB492;text-align: center;font-size: 15px">&nbsp;查 询</span>&nbsp;</button> &nbsp;&nbsp;&nbsp;&nbsp;
+							<button  id="orderQueryResetButton" class="label label-warning" style="height: 31px;width:78px;font-size: 15px;text-align: center;font-size: 15px">&nbsp;重 置&nbsp;</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+                                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="width: 104%;margin-top: -64px;margin-bottom: 66px;margin-left: -30px">
+                                    <div class="panel bk-widget bk-border-off">
+                                        <div class="panel-heading bk-bg-white" style="background-color:#f6d1b8 !important;border-bottom: 0px solid #ddd">
+                                            <h6 style="color: black">
+                                                <i class="fa fa-table red"></i><span class="break"  style="margin-left: -10px;font-size: 15px">查询结果</span>
+                                            </h6>
+                                        </div>
+                                        <div class="panel-body" style="font-size: 15px">
+                                            <div class="table-responsive" style="margin-top: 5px">
+                                                <table class="table table-bordered" style="background-color: #f9f9f9;border-collapse:separate;border-radius: 10px">
+                                                    <tbody style="text-align:center">
+                                                    <tr style="height: 50px">
+                                                        <td style="width: 13%;border-top-left-radius: 8px;"><span style="margin-left: -35px">ID：</span></td>
+                                                        <td><input style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+                                                        <td style="width: 13%"><span style="margin-left: -22px">账号：</span></td>
+                                                        <td><input style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+                                                        <td style="width: 13%">支付订单：</td>
+                                                        <td style="border-top-right-radius: 8px;"><input style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+                                                    </tr>
+                                                    <tr style="height: 50px">
+                                                        <td style="width: 13%;border-bottom-left-radius: 8px;">退款订单：</td>
+                                                        <td><input style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+                                                        <td style="width: 13%">开始时间：</td>
+                                                        <td><input style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+                                                        <td style="width: 13%">结束时间：</td>
+                                                        <td style="border-bottom-right-radius: 8px;"><input style="height: 35px;width: 100%;border: solid 1px #CBCBCB"></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div style="margin-top: -6px;margin-bottom: -1px" align="center">
+                                                <button class="label label-warning" style="height: 31px;width:78px;font-size: 15px;background-color: #0FB492;text-align: center;font-size: 15px">&nbsp;查 询&nbsp;</button> &nbsp;&nbsp;&nbsp;&nbsp;
+                                                <button class="label label-warning" style="height: 31px;width:78px;font-size: 15px;text-align: center;font-size: 15px">&nbsp;重 置&nbsp;</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            -->
+
+			<div class="col-md-12" style="width: 104%;margin-top: -64px;margin-left: -30px">
+				<div class="panel">
+					<div class="panel-heading bk-bg-white" style="background-color:#efbbb9 !important;border-bottom: 0px solid #ddd">
+						<h6 style="color: black">
+							<i class="fa fa-table red"></i><span class="break"  style="margin-left: -10px;font-size: 15px">支付信息</span>
+						</h6>
+
+					</div>
+					<div class="panel-body">
+						<div class="panel-body" style="font-size: 15px;box-shadow:0 0px 0px rgba(0, 0, 0, 0.05);">
+							<div class="table-responsive" style="margin-top: -10px;width: 102%;margin-left: -15px">
+								<table id="advertTable" class="table table-bordered" style="text-align: center;border-collapse:separate;border-radius: 10px">
+									<!--table table-striped  table table-bordered-->
+									<thead>
+									<tr>
+										<th style="width: 5%;text-align: center;border-top-left-radius: 8px;">序号</th>
+										<th style="width:5%;text-align: center">ID</th>
+										<th style="width:14%;text-align: center">订单号</th>
+										<th style="width: 15%;text-align: center">平台交易号</th>
+										<th style="width: 14%;text-align: center">下单时间</th>
+										<th style="width: 7%;text-align: center">实付金额</th>
+										<th style="width: 7%;text-align: center">付款方式</th>
+										<th style="width: 9%;text-align: center">付款方</th>
+										<th style="width: 9%;text-align: center">收款方</th>
+										<th style="width: 9%;text-align: center">商品名称</th>
+										<th style="width: 9%;text-align: center">订单状态</th>
+									</tr>
+									</thead>
+									<tbody>
+									<tr id="tr1" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr2" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr3" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr4" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr5" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr6" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr7" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr8" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									<tr id="tr9" class="error" style="background-color: #f9f9f9">
+										<td style="padding-top:15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+										<td style="padding-top: 15px"></td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div align="center" style="margin-top: -23px;margin-bottom: -3px">
+							<button id="firstButton" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px;width: 100px">首 页</button>
+							<button id="prevButton" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px;width: 100px">上一页</button>
+							<button id="nextButton" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px;width: 100px">下一页</button>
+							<button id="lastButton" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px;width: 100px">末 页</button>
+							<input id="gotoPageText" style="position: relative;top: 2px;height: 30.1px;width: 70px;margin-left: 5.4px;margin-right: 5.4px" />
+							<button id="gotoPageButton" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px;width: 100px">转 到</button>
+							<button id="queryAllRowCount" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px">当前条件总记录数：</button>
+							<button id="queryCurrentPageRowCount" type="button" class="bk-margin-5 btn btn-success" style="font-size: 15px;height:31px;font-size: 15px">当前条件页总记录数：</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+<!-- start: JavaScript-->
+<!-- Vendor JS-->
+
+
+
+<script src="assets/vendor/js/jquery.min.js"></script>
+<script src="assets/vendor/js/jquery-2.1.1.min.js"></script>
+<script src="assets/vendor/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/vendor/skycons/js/skycons.js"></script>
+<script src="assets/vendor/js/pace.min.js"></script>
+<!-- Plugins JS-->
+<script src="assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+<script src="assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/plugins/bootkit/js/bootkit.js"></script>
+<script src="assets/plugins/magnific-popup/js/magnific-popup.js"></script>
+<script src="assets/plugins/moment/js/moment.min.js"></script>
+<script src="assets/plugins/fullcalendar/js/fullcalendar.js"></script>
+<script src="assets/plugins/flot/js/jquery.flot.min.js"></script>
+<script src="assets/plugins/flot/js/jquery.flot.pie.min.js"></script>
+<script src="assets/plugins/flot/js/jquery.flot.resize.min.js"></script>
+<script src="assets/plugins/flot/js/jquery.flot.stack.min.js"></script>
+<script src="assets/plugins/flot/js/jquery.flot.time.min.js"></script>
+<script src="assets/plugins/flot-tooltip/js/jquery.flot.tooltip.js"></script>
+<script src="assets/plugins/chart-master/js/Chart.js"></script>
+<script src="assets/plugins/jqvmap/jquery.vmap.js"></script>
+<script src="assets/plugins/jqvmap/data/jquery.vmap.sampledata.js"></script>
+<script src="assets/plugins/jqvmap/maps/jquery.vmap.world.js"></script>
+<script src="assets/plugins/sparkline/js/jquery.sparkline.min.js"></script>
+<!-- Theme JS -->
+<script src="assets/js/jquery.mmenu.min.js"></script>
+<script src="assets/js/core.min.js"></script>
+<script language="javascript" type="text/javascript"
+		src="assets/My97DatePicker/WdatePicker.js"></script>
+<script src="assets/myjs/index.js"></script>
+<script>
+	$(function () {
+		$("tr").css("height","46px");
+	});
+</script>
+<!-- Pages JS -->
+<!-- end: JavaScript-->
+</body>
+
+</html>

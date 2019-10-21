@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "mybatis-3-mapper.dtd">
+<mapper namespace="com.wl.www.sqlmapping.OrderMapper">
+
+    <insert id="insertOrder" parameterType="com.wl.www.dubboservice.dto.Order">
+        insert into pay.order(ordernumber,orderalipaynumber,ordertime,orderactualpayment,orderpaymethod,
+        orderbuyername,ordersellername,ordercommodity,orderstate)
+        values(#{orderNumber},#{orderAlipayNumber},#{orderTime},#{orderActualPayment},
+        #{orderPayMethod},#{orderBuyerName} ,#{orderSellerName},#{orderCommodity},#{orderState})
+    </insert>
+
+    <update id="updateByOrderNumber" parameterType="com.wl.www.dubboservice.dto.Order">
+        update pay.order set orderstate=#{orderState} where ordernumber=#{orderNumber}
+    </update>
+
+    <select id="showOrderBuyer" resultType="com.wl.www.dubboservice.dto.Order">
+        select * from pay.order where orderbuyername=#{orderBuyerName} limit #{currentpage},#{pageSize}
+    </select>
+
+    <select id="showSeller" resultType="com.wl.www.dubboservice.dto.Order">
+        select * from pay.order where ordersellername=#{orderSellerName} limit #{currentpage},#{pageSize}
+    </select>
+    
+    <select id="getOrder" resultType="com.wl.www.dubboservice.dto.Order" parameterType="map">
+        select * from pay.order
+        <where>
+            <if test="ordernumber!=null and ordernumber!=''">and ordernumber=#{ordernumber}</if>
+            <if test="orderalipaynumber!=null and orderalipaynumber!=''">and orderalipaynumber=#{orderalipaynumber}</if>
+            <if test="ordertime!=null">and ordertime = #{ordertime}</if>
+            <if test="orderbuyername!=null and orderbuyername!=''">and orderbuyername like '%${orderbuyername}%'</if>
+            <if test="ordersellername!=null and ordersellername!=''">and ordersellername like '%${ordersellername}%'</if>
+            <if test="ordercommodity!=null and ordercommodity!=''">and ordercommodity like '%${ordercommodity}%'</if>
+        </where>
+        limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="getOrderCount" resultType="int">
+        select count(1) from pay.order
+        <where>
+            <if test="ordernumber!=null and ordernumber!=''">and ordernumber=#{ordernumber}</if>
+            <if test="orderalipaynumber!=null and orderalipaynumber!=''">and orderalipaynumber=#{orderalipaynumber}</if>
+            <if test="ordertime!=null">and ordertime = #{ordertime}</if>
+            <if test="orderbuyername!=null and orderbuyername!=''">and orderbuyername like '%${orderbuyername}%'</if>
+            <if test="ordersellername!=null and ordersellername!=''">and ordersellername like '%${ordersellername}%'</if>
+            <if test="ordercommodity!=null and ordercommodity!=''">and ordercommodity like '%${ordercommodity}%'</if>
+        </where>
+    </select>
+</mapper>

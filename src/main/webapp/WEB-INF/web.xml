@@ -1,0 +1,45 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+    <display-name>Archetype Created Web Application</display-name>
+    <filter>
+        <filter-name>CharSetFilter</filter-name>
+        <filter-class>com.wl.www.filter.CharSetFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CharSetFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <servlet>
+        <servlet-name>AliPayController</servlet-name>
+        <servlet-class>com.wl.www.controller.AliPayController</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>InitDubboServlet</servlet-name>
+        <servlet-class>com.wl.www.controller.InitDubboServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetOrderPage</servlet-name>
+        <servlet-class>com.wl.www.controller.GetOrderPage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AliPayController</servlet-name>
+        <url-pattern>/AliPayController</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>InitDubboServlet</servlet-name>
+        <url-pattern>/InitDubboServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetOrderPage</servlet-name>
+        <url-pattern>/GetOrderPage</url-pattern>
+    </servlet-mapping>
+</web-app>

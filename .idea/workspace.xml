@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="030f47c2-380d-4b90-8d1a-4c3bc2f36e85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wl/www/controller/GetOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wl/www/controller/GetOrderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wl/www/config/AlipayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wl/www/config/AlipayConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1SM3OfOAdeLUp8d6mdUTTfMzGkt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -419,8 +422,16 @@
       <workItem from="1571359838941" duration="25000" />
       <workItem from="1571359892393" duration="17000" />
       <workItem from="1571643663715" duration="800000" />
-      <workItem from="1571649843342" duration="348000" />
+      <workItem from="1571649843342" duration="2492000" />
     </task>
+    <task id="LOCAL-00001" summary="更改类">
+      <created>1571650325966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571650325966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -447,6 +458,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="更改类" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改类" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

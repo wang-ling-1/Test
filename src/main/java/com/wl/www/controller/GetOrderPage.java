@@ -21,6 +21,7 @@ public class GetOrderPage extends HttpServlet {
         ResponseContent rc = new ResponseContent();
         OrderService service = new OrderService();
         String jsonString = null;
+        int a = 0;
         try {
             String ordernumber = request.getParameter("ordernumber");
             String orderalipaynumber = request.getParameter("orderalipaynumber");

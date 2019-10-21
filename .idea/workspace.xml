@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="030f47c2-380d-4b90-8d1a-4c3bc2f36e85" name="Default Changelist" comment="" />
+    <list default="true" id="030f47c2-380d-4b90-8d1a-4c3bc2f36e85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wl/www/controller/GetOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wl/www/controller/GetOrderPage.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +71,17 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1SM3OfOAdeLUp8d6mdUTTfMzGkt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -410,6 +419,7 @@
       <workItem from="1571359838941" duration="25000" />
       <workItem from="1571359892393" duration="17000" />
       <workItem from="1571643663715" duration="800000" />
+      <workItem from="1571649843342" duration="348000" />
     </task>
     <servers />
   </component>
@@ -430,7 +440,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -2,7 +2,7 @@ package com.wl.www.config;
 
 
 public class AlipayConfig {
-    int a = 100;
+    int a = 1000;
     // 应用ID,您的APPID，收款账号既是您的APPID对应支付宝账号
     public static String app_id = "2016100100637960";
     // 商户私钥，您的PKCS8格式RSA2私钥
